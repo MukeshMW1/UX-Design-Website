@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
+
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('pixel.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: 40px;
+
+
+}
+
+
+li {
+    display: inline;
+}
+
+
+
+.head {
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+    word-spacing: 50px;
+    color: rgba(255, 255, 255, 0.829);
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.head>ul>li:hover {
+    border-bottom: 2px rgba(0, 255, 170, 0.918) solid;
+    cursor: pointer;
+    transition: margin-right 2s .5s;
+}
+
+.bod {
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+
+.bod>h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.bod>h4 {
+    line-height: 5px;
+    font-size: 17px;
+
+}
+
+
+
+.buttons {
+    text-align: center;
+
+}
+
+
+.buttons>button {
+    height: 30px;
+    width: 10vw;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border: 1px rgba(0, 255, 170, 0.918) solid;
+}
+
+
+.buttons>button:hover {
+    background-color: rgba(0, 255, 170, 0.918);
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+@media (width <=500px) {
+    body {
+        padding: 0;
+        width: 400px;
+    }
+
+    /* 
+    .total {
+        margin: 0;
+
+
+    } */
+}
